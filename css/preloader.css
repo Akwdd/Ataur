@@ -23,27 +23,17 @@
     -webkit-transform: skew(0deg, 0) rotate(90deg) !important;
    -moz-transform: skew(0deg, 0) rotate(90deg) !important;
     /* left: -43px !important; */
-    margin: 0px 0px 0px -250px;
+    margin: 0px 0px 0px -185px;
     width: 588px !important;
 }
 .cssload-mask2 {
-    margin: 80px 0px 0px 0px;
-    width: 248px !important;
-	transform: skew(0deg, 0) rotate(50deg) !important;
-    -o-transform: skew(0deg, 0) rotate(50deg) !important;
-    -ms-transform: skew(0deg, 0) rotate(50deg)  !important;
-    -webkit-transform: skew(0deg, 0) rotate(50deg)  !important;
-     -moz-transform: skew(0deg, 0) rotate(50deg) !important;
-}
-.cssload-mask3 {
-   	transform: skew(0deg, 0) rotate(-50deg) !important;
-    -o-transform: skew(0deg, 0) rotate(-50deg)  !important;
-    -ms-transform: skew(0deg, 0) rotate(-50deg)  !important;
-    -webkit-transform: skew(0deg, 0) rotate(-50deg)  !important;
-   -moz-transform: skew(0deg, 0) rotate(-50deg) !important;
-    /* left: -43px !important; */
-    margin: -70px 0px 0px 0px;
-    width: 248px !important;
+    margin: -122px 0px 0px 0px;
+    width: 348px !important; 
+	transform: skew(0deg, 0) rotate(0deg) !important;
+    -o-transform: skew(0deg, 0) rotate(0deg)!important;
+    -ms-transform: skew(0deg, 0) rotate(0deg)  !important;
+    -webkit-transform: skew(0deg, 0) rotate(0deg)  !important;
+     -moz-transform: skew(0deg, 0) rotate(0deg) !important;
 }
 .cssload-mask11 {
    transform: skew(0deg, 0) rotate(60deg)!important;
@@ -63,7 +53,7 @@
   -moz-transform: skew(-15deg, 0deg) rotate(110deg) !important;
     /* left: -43px !important; */
     margin: 0px 0px 0px -180px;
-    width: 370px !important;
+    width: 380px !important;
 }
 .cssload-mask33 {
 	     transform: skew(0deg, 0) rotate(0deg)!important;
@@ -82,7 +72,7 @@
     height: 58px;
 }
 #cssload-global1 {
-    width: 110px;
+    width: 150px;
     margin: auto;
     position: relative;
     height: 58px;
@@ -134,7 +124,7 @@
 }
 #cssload-top {
     width: 52px;
-    height: 49px;
+    height: 59px;
     left: 19px;
     transform: skew(-15deg, 0);
     -o-transform: skew(-15deg, 0);
