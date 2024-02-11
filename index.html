@@ -972,7 +972,7 @@
                             </div>
 
 							
-							 <div class="container-fluid">
+							<div class="container-fluid">
 
                 <!-- row -->
                 <div class="row p-30-0">
@@ -995,7 +995,7 @@
                     <div class="art-a art-card mb-0">
 
                       <!-- contact form -->
-                      <form id="form" class="art-contact-form">
+                      <form id="form" class="art-contact-form" action="https://formspree.io/f/mjvnwbvq" method="POST">
                         <!-- form field -->
                         <div class="art-form-field">
                           <!-- name input -->
@@ -1007,7 +1007,7 @@
                         <!-- form field -->
                         <div class="art-form-field">
                           <!-- email input -->
-                          <input id="email" name="email" class="art-input" type="email" placeholder="Email" required="">
+                          <input id="email" name="email" class="art-input" type="text" placeholder="Email" required="">
                           <!-- label -->
                           <label for="email"><img style="height:35px ;width:20px;margin:0 auto" src="./img/user1.png"></label>
                         </div>
@@ -1015,25 +1015,30 @@
                         <!-- form field -->
                         <div class="art-form-field">
                           <!-- message textarea -->
-                          <textarea id="message" name="text" class="art-input" placeholder="Message" required="" style="height: 381px;"></textarea>
+                          <textarea id="messag" name="text" class="art-input" placeholder="Message" required="" style="height: 381px;"></textarea>
                           <!-- label -->
-                          <label for="message"><img style="height:35px ;width:20px;margin:0 auto" src="./img/bac4.jpg"></label>
+                          <label for="messag"><img style="height:35px ;width:20px;margin:0 auto" src="./img/bac4.jpg"></label>
                         </div>
                         <!-- form field end -->
                         <!-- button -->
                         <div class="art-submit-frame">
                           <button class="art-btn art-btn-md art-submit" style="color:yellow" type="submit"><span>Send message</span></button>
                           <!-- success -->
-                          <div class="art-success">Success <i class="fas fa-check"></i></div>
+                          
                         </div>
+		
+					<div id="status"></div>
+				
                       </form>
+                      
                       <!-- contact form end -->
 
                     </div>
                     <!-- contact form frame end -->
-
+                    
                   </div>
                   <!-- col end -->
+				  
                 </div>
                 <!-- row end -->
 
@@ -1166,7 +1171,7 @@
     </div>
     <!-- app end -->
 
-
+ <script type="text/javascript" src="script.js"></script>
     <!-- jquery js -->
     <script src="js/plugins/jquery.min.js"></script>
     <!-- anime js -->
