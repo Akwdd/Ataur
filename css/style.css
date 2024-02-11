@@ -118,7 +118,42 @@ body { font-family: sans-serif; }
 .carousel {
   background: #EEE;
 }
-
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  margin-top: 20px;
+  background-color: rgba(6, 58, 71, 0.89);
+  animation: status 7s ease forwards;
+  color:yellow;
+  border-radius: 20px;
+}
+#status.error {
+  margin-top: 20px;
+  background-color: rgba(6, 58, 71, 0.89);
+  color:yellow;
+  animation: status 7s ease forwards;
+  border-radius: 20px;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 .carousel-cell {
   width: 50%;
   height: 320px;
@@ -995,66 +1030,6 @@ content (after 920px)
 
 
 
-@media (max-width: 920px) {
-  .art-banner .art-banner-overlay {
-      padding: 50px 30px;
-  }
-  .art-lg-text {
-    font-size: 14px;
-    padding-bottom: 145%;
-  }
-  .carousel-cell{
-    width: 50%;
-  }
-  .art-banner .art-banner-overlay .art-banner-title {
-      text-align: center;
-      display: absolute;
-  }
-  
-  .art-banner .art-banner-overlay .art-banner-title h1 {
-      color: #fafafc;
-      font-size: 46px;
-  }
-  .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame {
-      text-align: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-  }
-  .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a {
-      max-width: 200px;
-      margin: 0 auto;
-  }
-  .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a:first-child {
-      margin-bottom: 15px;
-  }
-  .art-code {
-      min-height: 70px;
-      margin-bottom: 0;
-  }
-  .art-timeline .art-timeline-content {
-      margin-right: 30px;
-  }
-  .fancybox-container {
-      margin: 0;
-      width: 100vw;
-      height: 100vh;
-  }
-  .fancybox-toolbar {
-      width: 100vw;
-  }
-  .fancybox-navigation {
-      width: 100%;
-      position: absolute;
-      bottom: 35px;
-  }
-}
 
 /* ------------------------------
 
