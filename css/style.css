@@ -3069,5 +3069,32 @@ to{
 .mb-15{
   color:white;
 }
-
+img.art-banner-phot1{
+	width:100%; 
+	height:400px;
+}
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 500px) {
+.art-banner .art-banner-overlay {
+	  height:200px;
+  }
+.art-banner .art-banner-overlay .art-banner-overla{
+	display:none
+}
+.art-service-icon-box .art-service-ib-content {
+    padding: 7px;
+}
+.art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame {
+    padding: 0px 7px;
+}
+.art-app .art-app-wrapper .art-app-container .art-info-bar {
+	width:150px
+}
+.art-service-icon-box {
+	height:300px;
+}
+img.art-banner-phot1{
+	width:100%; 
+	height:240px;
+}
+}
