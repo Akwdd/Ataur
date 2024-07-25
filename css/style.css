@@ -3105,7 +3105,7 @@ img.art-banner-phot1{
 .neon_btn{font-size:11px;}
 .letme h1{font-size:18px;color:white;text-shadow:3px 1px #1e90ff;margin: 0 auto;text-align: center;padding:10px}
 .divider h4{display:none}
-.number{width:20px}
+.number{font-size:14px}
 .art-testimonial .testimonial-body .art-testimonial-face {
     position: absolute;
         object-fit: cover;
@@ -3129,4 +3129,10 @@ h4 {
     right: 11px;
     bottom: 0;
 }
+.stage{display:none}
+.art-table{padding-top:-150px}
+.new{display:none}
+.art-info-bar .art-knowledge-list li{font-size:15px}
+.art-info-bar .art-ls-social{padding: 10px 6px 40px 10px;}
+
 }
