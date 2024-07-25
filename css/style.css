@@ -3139,4 +3139,13 @@ h4 {
 .art-form-field textarea {
   height: 200px;
 }
+.art-info-bar .art-name {padding-top:28px}
+.art-info-bar .art-header .art-avatar .art-avatar-curtain img {
+	width: 118%;
+    height: 132%;
+	padding: 10px;}
+.art-info-bar .art-header .art-avatar .art-lamp-light:before{
+	right: -7px;}
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
+	right: -3px;}
 }
