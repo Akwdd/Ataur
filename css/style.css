@@ -3122,4 +3122,11 @@ h4 {
   font-weight: 400;
   color:#20c32d
 }
+.art-banner .art-banner-overlay .art-banner-photo {
+    width: 76%;
+    height: 74%;
+    position: absolute;
+    right: 11px;
+    bottom: 0;
+}
 }
